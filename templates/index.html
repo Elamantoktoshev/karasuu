@@ -1,0 +1,12 @@
+<h1>Elaman Shef</h1>
+<h1>{{ ads_list }}</h1>
+
+{% for obj in ads_list%}
+<h2>{{obj.id}}</h2>
+<h2>{{obj.ad_client}}</h2>
+<h2>{{obj.ad_discription}}</h2>
+<h2>{{obj.ad_number}}</h2>
+<h2>{{obj.ad_social}}</h2>
+<h2>{{obj.ad_dt}}</h2>
+<h2>{{obj.ad_image}}</h2>
+{% endfor %}
